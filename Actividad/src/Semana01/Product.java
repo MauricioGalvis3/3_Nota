@@ -1,4 +1,3 @@
-package Semana01;
 
 public class Product {
     String name;
