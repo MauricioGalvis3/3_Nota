@@ -1,4 +1,4 @@
-package unidad3.semana6;
+package unidad3.actividad1;
 
 public class Book {
 
