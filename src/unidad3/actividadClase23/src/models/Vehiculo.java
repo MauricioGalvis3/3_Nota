@@ -1,10 +1,9 @@
-package unidad3.actividadClase23.models;
+package models;
+
 public class Vehiculo {
-    
     private String marca;
     private int velocidad;
 
-   
     public Vehiculo(String marca) {
         this.marca = marca;
         this.velocidad = 0;
@@ -34,9 +33,8 @@ public class Vehiculo {
     public void frenar() {
         if (velocidad > 0) {
             velocidad -= 10;
+            if (velocidad < 0) velocidad = 0;
         }
         System.out.println(marca + " frenó. Velocidad actual: " + velocidad + " km/h");
     }
 }
-
-
